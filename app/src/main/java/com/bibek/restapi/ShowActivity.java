@@ -1,8 +1,6 @@
 package com.bibek.restapi;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -10,9 +8,7 @@ import android.widget.Toast;
 
 import com.bibek.restapi.api.EmployeeAPI;
 import com.bibek.restapi.model.Employee;
-import com.bibek.restapi.model.EmployeeAdapter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
